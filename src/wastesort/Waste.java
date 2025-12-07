@@ -35,8 +35,8 @@ public abstract class Waste {
     }
 
     public String getDetailedInfo() {
-        return String.format("% (id=%s) - %.3f kg material=%s, decomp=%d days",
-                name, id, weightKg, materialType == null? "unknown " : materialType , decompositionDays);
+        return String.format("%s (id=%s) - %.3f kg, material=%s, decomp=%d days",
+                name, id, weightKg, materialType == null ? "unknown" : materialType, decompositionDays);
     }
     @Override
     public String toString() {

@@ -7,5 +7,4 @@ public enum WasteCategory {
     PAPER,
     GLASS,
     OTHER;
-
 }
